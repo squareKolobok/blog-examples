@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/OpenAiApi/bin/Debug/net8.0/OpenAiApi.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/OpenAiApi",
+            "stopAtEntry": false,
+            "console": "externalTerminal"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
